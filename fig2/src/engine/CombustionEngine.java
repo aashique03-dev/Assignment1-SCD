@@ -1,0 +1,8 @@
+package engine;
+
+public class CombustionEngine implements Engine {
+    @Override
+    public void move() {
+        System.out.println("Moving by combustion engine");
+    }
+}
